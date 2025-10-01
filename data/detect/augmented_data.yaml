@@ -1,0 +1,14 @@
+path: E:/RoadDefect/data/detect/processed
+train: 
+  - train/images              # 原始所有类别数据
+  - augmented_pothole/images  # 新增的pothole增强数据
+val: val/images
+test: test/images
+
+names:
+  0: Longitudinal Crack
+  1: Transverse Crack
+  2: Aligator Crack
+  3: Pothole
+
+nc: 4
